@@ -167,3 +167,12 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.lottieFilesStyle {
+  width: 320px;
+}
+@media (max-width: 500px) {
+  .lottieFilesStyle {
+    width: 200px;
+  }
+}

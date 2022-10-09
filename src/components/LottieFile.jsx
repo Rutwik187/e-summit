@@ -33,7 +33,7 @@ class LottieFile extends React.Component {
           autoplay
           mode="normal"
           src="https://lottie.host/687b5bc1-1ef5-48c8-b45c-527717cc8461/Fc5uvSZY00.json"
-          style={{ width: "320px" }}
+          className="lottieFilesStyle" //styled in index.css
         ></lottie-player>
       </div>
     );
