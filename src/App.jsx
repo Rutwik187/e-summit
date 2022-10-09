@@ -13,6 +13,7 @@ import {
   Events,
   Sponsors,
 } from "./components";
+import CountDown from "./components/CountDown";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -36,6 +37,7 @@ const App = () => (
           <CardDeal /> */}
         <Speakers />
         <Events />
+        <CountDown />
         <Sponsors />
         <CTA />
         <Footer />

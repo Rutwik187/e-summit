@@ -9,10 +9,10 @@ const SpeakerCard = ({ content, name, title, img }) => (
     />
     <div className="flex flex-row">
       <div className="flex flex-col mt-4 items-center">
-        <h4 className="font-poppins font-semibold text-[30px] leading-[50px] text-white">
+        <h4 className="font-poppins font-semibold text-[30px] leading-[50px] text-white text-center">
           {name}
         </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite text-center">
           {title}
         </p>
       </div>

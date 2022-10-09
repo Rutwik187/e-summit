@@ -1,7 +1,7 @@
 import styles from "../style";
-import { discount, robot, calender } from "../assets";
-import GetStarted from "./GetStarted";
+import { robot, calender } from "../assets";
 import Button from "../components/Button";
+import LottieFile from "./LottieFile";
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
             <span className=" flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-white ss:leading-[60px] leading-[30px] flex items-center">
               JSPM RSCOE's
             </span>
-            <h1 className="text-gradient flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100.8px] leading-[75px]">
+            <h1 className="text-gradient flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] ss:leading-[100.8px] leading-[75px]">
               E-SUMMIT'22
               <br className="sm:block hidden" />
             </h1>
@@ -53,11 +53,7 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <img
-          src={robot}
-          alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
-        />
+        <LottieFile />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

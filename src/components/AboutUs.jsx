@@ -25,7 +25,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const AboutUs = () => (
-  <section id="features" className={layout.section}>
+  <section id="about-us" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>About E-Summit'22</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
