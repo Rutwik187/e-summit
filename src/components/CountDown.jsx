@@ -80,35 +80,35 @@ const CountDown = () => {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col">
-        <h2 className={`${styles.heading2} text-center`}>
+        <h2 className={`${styles.heading2} text-center  leading-10 text-3xl`}>
           Event Starting Soon...
         </h2>
-        <div className="text-gradient flex-1 font-poppins font-semibold ss:text-[72px] text-[48px]  text-center flex justify-center">
-          <div>
+        <div className="text-gradient flex-1 font-poppins font-semibold ss:text-[72px] text-[30px] text-center flex justify-center">
+          <div className="ss:m-4 m-2">
             {timerDays}
-            {" : "}
-            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[20px] text-white flex items-center text-center">
+            {" :"}
+            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[10px] text-white flex items-center text-center">
               Days
             </p>
           </div>
-          <div>
+          <div className="ss:m-4 m-2">
             {timerHours}
-            {" : "}
-            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[20px] text-whit flex items-center text-center">
-              Hrs
+            {" :"}
+            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[10px] text-whit flex items-center text-center">
+              Hours
             </p>
           </div>
-          <div>
+          <div className="ss:m-4 m-2">
             {timerMinutes}
-            {" : "}
-            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[20px] text-white flex items-center text-center">
-              Mins
+            {" :"}
+            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[10px] text-white flex items-center text-center">
+              Minutes
             </p>
           </div>
-          <div>
+          <div className="ss:m-4 m-2">
             {timerSeconds}{" "}
-            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[20px] text-white flex items-center text-center">
-              Sec
+            <p className="flex-1 font-poppins font-medium ss:text-[30px] text-[10px] text-white flex items-center text-center">
+              Seconds
             </p>
           </div>
         </div>

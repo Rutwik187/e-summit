@@ -6,7 +6,9 @@ const CTA = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Register now to join our events</h2>
+      <h2 className={`${styles.heading2} leading-10 text-3xl`}>
+        Register now to join our events
+      </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Everything you need to accept card payments and grow your business
         anywhere on the planet.
