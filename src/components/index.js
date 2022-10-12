@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Speakers from "./Speakers";
 import Hero from "./Hero";
 import Events from "./Events";
+import WhatWeProvide from "./WhatWeProvide";
 
 export {
     Navbar,
@@ -21,5 +22,6 @@ export {
     Stats,
     Footer,
     Speakers,
-    Hero
+    Hero,
+    WhatWeProvide,
 };

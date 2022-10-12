@@ -9,9 +9,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
     >
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain " />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
@@ -37,7 +37,7 @@ const AboutUs = () => (
         giving valuable guidance to the budding innovators and creators.
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

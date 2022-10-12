@@ -29,6 +29,13 @@ const Hero = () => {
               E-SUMMIT'22
               <br className="sm:block hidden" />
             </h1>
+            <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+              <p className={`${styles.paragraph} ml-2`}>
+                <span className="text-white">
+                  The Insurgency of modernization
+                </span>{" "}
+              </p>
+            </div>
             <div className="flex">
               <img src={calender} alt="calender" />
               <h2 className="flex-1 font-poppins font-medium ss:text-[30px] text-[20px] text-white ss:leading-[60px] leading-[30px] ml-5 flex items-center">
@@ -41,13 +48,15 @@ const Hero = () => {
         {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
           Payment Method.
         </h1> */}
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+        <p className={`${styles.paragraph} max-w-[650px] mt-5`}>
+          E-Summit encompasses all aspects of what it takes to nurture
+          entrepreneurship spirit, ranging from challenging competitions,
+          innovative activities, panel discussions, entrepreneurial lectures,
+          and a plethora of events and mentorship to value-adding workshops to
+          thought-provoking sessions.
         </p>
         <div className="my-5"></div>
-        <Button />
+        {/* <Button /> */}
       </div>
 
       <div

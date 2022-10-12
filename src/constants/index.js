@@ -10,8 +10,8 @@ export const navLinks = [
         title: "About Us",
     },
     {
-        id: "speakers",
-        title: "Speakers",
+        id: "what-we-provide",
+        title: "What We Provide",
     },
     {
         id: "events",
@@ -24,23 +24,16 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Why E-summit",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "To find a way out of the darkness that has engulfed us over the past two years, Indian youth needs to take on the mantle and show us the path to a new world where optimism, creativity, innovation, and ambition thrive.",
     },
     {
         id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
-        content:
-            "We take proactive steps make sure your information and transactions are secure.",
-    },
-    {
-        id: "feature-3",
         icon: send,
-        title: "Balance Transfer",
+        title: "About Events",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Entrepreneurship Summit is a 4-day event that is being organized with the vision providing a platform that stimulates discussion on ideas.",
     },
 ];
 
@@ -92,9 +85,27 @@ export const events = [
         id: "event-3",
         content:
             "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Chanakya 1.0",
+        name: "Exelerate 1.0",
         title: "Finance, Innovation, Design Thinking",
         img: thinker,
+    },
+];
+
+export const whatWeProvide = [
+    {
+        id: "provide-1",
+        name: "E-TALKS",
+        title: "A pantheon of the best speakers brought to you by those dedicated to entrepreneurship.",
+    },
+    {
+        id: "provide-2",
+        name: "COMPETITIONS",
+        title: "Battle it out in different competitions catering to core entrepreneurial domains to emerge victorias.",
+    },
+    {
+        id: "provide-3",
+        name: "WORKSHOPS",
+        title: "Get your thinking caps on and get the answer to all of your questions in our workshops.",
     },
 ];
 

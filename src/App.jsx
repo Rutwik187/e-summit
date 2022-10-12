@@ -12,6 +12,7 @@ import {
   Hero,
   Events,
   Sponsors,
+  WhatWeProvide,
 } from "./components";
 import CountDown from "./components/CountDown";
 
@@ -35,11 +36,12 @@ const App = () => (
         <AboutUs />
         {/* <Billing />
           <CardDeal /> */}
-        <Speakers />
+        {/* <Speakers /> */}
+        <WhatWeProvide />
         <Events />
         <CountDown />
-        <Sponsors />
-        <CTA />
+        {/* <Sponsors /> */}
+        {/* <CTA /> */}
         <Footer />
       </div>
     </div>

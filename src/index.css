@@ -168,11 +168,12 @@
   filter: blur(750px);
 }
 
-.lottieFilesStyle {
-  width: 320px;
+#firstLottie {
+  width: 500px;
 }
+
 @media (max-width: 500px) {
-  .lottieFilesStyle {
-    width: 200px;
+  #firstLottie {
+    width: 300px;
   }
 }
