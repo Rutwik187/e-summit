@@ -85,8 +85,8 @@ export const events = [
         id: "event-3",
         content:
             "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Exelerate 1.0",
-        title: "Finance, Innovation, Design Thinking",
+        name: "E-Talk",
+        title: "Talks and Sessions",
         img: thinker,
     },
 ];

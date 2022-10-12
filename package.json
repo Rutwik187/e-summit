@@ -11,6 +11,7 @@
   "dependencies": {
     "@lottiefiles/lottie-interactivity": "^1.6.1",
     "@lottiefiles/lottie-player": "^1.5.7",
+    "jspdf": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
