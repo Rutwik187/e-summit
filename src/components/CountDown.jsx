@@ -17,7 +17,7 @@ const CountDown = () => {
   // const [timer, setTimer] = useState("00:00:00");
 
   const getTimeRemaining = () => {
-    const countDown = new Date("November 9,2022").getTime();
+    const countDown = new Date("January 9,2023").getTime();
     const now = new Date().getTime();
     const total = countDown - now;
     const seconds = Math.floor((total / 1000) % 60);

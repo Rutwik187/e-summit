@@ -32,7 +32,7 @@ class LottieFile extends React.Component {
           loop
           autoplay
           mode="normal"
-          src="https://assets1.lottiefiles.com/packages/lf20_yCjSOH1fA9.json"
+          src="https://assets1.lottiefiles.com/packages/lf20_mplxocmr.json"
           className="lottieFilesStyle" //styled in index.css
         ></lottie-player>
       </div>
